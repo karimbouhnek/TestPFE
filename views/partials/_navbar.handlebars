@@ -1,0 +1,32 @@
+
+<div class="site-main" id="sTop">
+<div class="site-header">
+                <div class="main-header">
+                    <div class="container">
+                        <div id="menu-wrapper">
+                            <div class="row">
+                                <div class="logo-wrapper col-md-2 col-sm-2">
+                                    <h1>
+                                        <a href="/">Flex</a>
+                                    </h1>
+                                </div> <!-- /.logo-wrapper -->
+                                <div class="col-md-10 col-sm-10 main-menu text-right">
+                                    
+                                    <ul class="menu-first">
+                                        <li class="active"><a href="/">Acceuil</a></li>
+                                        {{#if user}}
+                                        <li><a href="/logout">Se deconnecter</a></li>  
+                                        {{else}}
+                                        <li><a href="/signup">Créer un Compte</a></li>
+                                        <li><a href="/login">Se connecter</a></li>
+                                        {{/if}}
+                                        <li><a href="/description">Introduction a NodeJS</a></li>                              
+                                    </ul>                                    
+                                </div> <!-- /.main-menu -->
+                            </div> <!-- /.row -->
+                        </div> <!-- /#menu-wrapper -->                        
+                    </div> <!-- /.container -->
+                </div> <!-- /.main-header -->
+            </div> <!-- /.site-header -->
+            
+        </div> <!-- /.site-main -->
